@@ -1,9 +1,15 @@
 #Case--  Study #2 - Pizza Runner'
 
 -- A. Pizza Metrics
--- 1. How many pizzas were ordered? 
+  
+-- Question 1. How many pizzas were ordered? 
+  
+--Solution 1 :
 SELECT  COUNT(order_id) as Pizza_ordered 
 FROM CUSTOMER_ORDERS ;
+
+-- Learning from the Question1 :
+
 
 -- 2. How many unique customer orders were made?
 SELECT COUNT(DISTINCT ORDER_ID ) AS Unique_Order
